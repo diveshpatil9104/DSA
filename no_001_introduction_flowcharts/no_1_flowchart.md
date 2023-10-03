@@ -1,6 +1,4 @@
-<h6>
-In this video, We would learn about what is flow chart & what is pseudocode. What is use of programming amd why to do programming?
-</h6>
+
 <ul>
   <li>
     <b>FlowChart:</b> It is visual representation of program using diagrams amd shapes having a fixed meaning.<br/>
