@@ -1,6 +1,6 @@
 package no_002_patterns;
 
-public class no_9_pattern8 {
+public class no_09_pattern8 {
 
     public static void main(String[] args) {
 
