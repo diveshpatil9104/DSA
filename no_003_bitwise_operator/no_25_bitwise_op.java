@@ -72,7 +72,7 @@ BINARY REPRESENTAION OF 5 AND 6 :
         6 ---->  0110
 
         ANS ---->   0101
-                  | 0110
+                  ^ 0110
                   --------  
                     0011    -----> 0011 IS IN BINARY SO ANS IS : 3 IN DECIMAL
  */
@@ -166,7 +166,7 @@ THE DERIVATION IS ---->> a << b = a * 2^b
         5 >> 2
 
 ANS -->  000001    ---->> REMOVE LAST 2 PLACE AND INSERT 0 IN FIRST BY 2 TIMES  BECOZ WE PERFORMED RIGHT SHIFTING BY 2 
-SO 000101 IN DECIMAL FORM WILL BE ----->> 1
+SO 000001 IN DECIMAL FORM WILL BE ----->> 1
 
 THE DERIVATION IS ---->> a >> b = a / 2^b
                 eg.      5 >> 2 = 5 / 2^2 ---->  1
