@@ -2,7 +2,7 @@ package no_004_binary_decimal_numsystem;
 
 import java.util.Scanner;
 
-public class no_24_decToBin {
+public class no_27_decToBin {
 
     public static void main(String[] args) { 
         
