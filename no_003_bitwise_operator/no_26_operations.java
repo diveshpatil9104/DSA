@@ -178,6 +178,14 @@ STEP   : 00001111
                 
         }
  
+/*
+         
+        QUESTION : COUNT SET BIT IN A NUMBER 
+
+
+
+
+         */
  
  
     }
