@@ -133,9 +133,16 @@ STEP   : 00001111
                                                                             
          ans is ----> 12                                                     
  */ 
+        int n4 = 10;
+        int i4 = 2;
+        int j = 4;
+        int a = ((~0)<< (j+1));
+        int b = (1<<i4)-1;
+        int bitmask4 = a|b;
+        System.out.println(n4&bitmask4);
+
  
- 
- 
+   
  
  
  
