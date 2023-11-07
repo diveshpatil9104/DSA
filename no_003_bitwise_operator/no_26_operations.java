@@ -32,6 +32,7 @@ STEP   : 00001111      i=2
         } else {
             System.out.println("1");        
 
+
             
         }
 // BINARY REPRESENTATION OF 10 IS 1010  AND ith(3) bit is 1
@@ -142,10 +143,42 @@ STEP   : 00001111
         System.out.println(n4&bitmask4);
 
  
-   
+        /* 
+        QUESTION :  CHECK IF A NUMBER IS A POWER OF TOW OR NOT ...
+
+        IN BINARY NUMBER THE & OF n and n-1 IS ALWAYS ZERO ... 
+        for eg..
+
+        4 & 3
+
+        4 ---->  100
+        3 ---->  001
+        100
+      & 001
+      -------  
+        0 
+
+        16 & 15
+        
+        16 ---->  10000
+        15 ---->  01111
+        10000
+      & 01111
+        -----
+          0  
+
+      */
+ 
+        int num = 4;
+        if ((num&(num-1)) == 0) {
+                System.out.println("Number is  Power of Zero");
+
+        }else{
+                System.out.println("Number is not Power of zero");      
+                
+        }
  
  
  
     }
 }
- 
