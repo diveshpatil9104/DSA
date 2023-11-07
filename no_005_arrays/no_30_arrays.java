@@ -1,6 +1,6 @@
 package no_005_arrays;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 /**
  * no_26_arrays
