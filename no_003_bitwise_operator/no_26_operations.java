@@ -182,6 +182,34 @@ STEP   : 00001111
          
         QUESTION : COUNT SET BIT IN A NUMBER 
 
+        FOR EG: BINARY REPRESENTATION OF 10 IS :
+
+        1010  :  NO OF SET BIT IS 2 ... 
+EXPLANATION :  IN BINARY NUMBER SET BIT MEANS 1 HAS A TWO OCCURANCE..
+
+HOW TO SOLVE THIS : 
+
+        1.      n = 1010 
+                n>>1            count 0 
+
+        2.      n= 0101         count 1 
+                n>>1
+                                                using odd and even alogo ( number & 1 == 0 (even) else odd  )
+        3.      n= 0010         count 1 
+                n>>1
+
+        4.      n = 0001        count 2 
+                n>>1
+
+        5.      n = 0000        
+        if number is 0 then stop 
+
+        ans ----->> count 2
+
+
+
+
+
 
 
 
