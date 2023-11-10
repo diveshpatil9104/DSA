@@ -221,9 +221,70 @@ HOW TO SOLVE THIS :
         System.out.println( "THE COUNT FOR SET BIT IS : " +count);
 
 
+/* 
+        FAST EXPONENTIATION - This algorithm efficiently computes the power of a number by using the binary representation of the exponent.
+                              This approach reduces the number of multiplications needed, making the algorithm more efficient compared to naive exponentiation.
+  
+      1.  5 power 3 is 243 
+      2.  3 power 5 is 125
+
+        explanation of program : 
+
+       ● first convert power in binary
+         - in first 2nd eg. the power is 5 so, 5 ----> 101 
+                so. 3 power 101 (in binary)
+                ans number is  3 ----> 011
+
+suppose ,  ans = 1
+
+      ●  1st iteration -
+                ans = ans * power 
+                ans = 1 * 5
+                ans = 5 
+
+                power = power * power
+                power = 5 * 5 
+                power = 25 
+
+                number = 001
+
+     ●   2nd iteration - 
+                ans = ans * power 
+                ans = 5 * 25
+                ans = 125 
+
+                power = power * power
+                power = 25 * 25  
+                power = 625
+
+                number = 000   
+        
+        HERE CIONDITIO IS FALSE (NUMBER > 0 ) AND ITERATION IS OVER ... 
+        It's a nifty trick to speed up exponentiation !! 😃
+
+----->> FINAL ANSER IS 125
+
+*/
 
 
- 
+        int number1 = 3;
+        int power = 5;
+        int answer = 1;
+
+        while (number1 > 0 ) {
+                if ((number1 & 1 ) != 0 ) {     // checking lsb 
+                        answer = answer * power;
+                }
+                power = power*power;
+                number1 = number1>>1;
+        }
+        System.out.println("ANS IS : " + answer);
+
+                
+
+
+
+  
  
     }
 }
