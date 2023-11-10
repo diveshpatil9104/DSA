@@ -281,10 +281,6 @@ suppose ,  ans = 1
         System.out.println("ANS IS : " + answer);
 
                 
-
-
-
-  
  
     }
 }
