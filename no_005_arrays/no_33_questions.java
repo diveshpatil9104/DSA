@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class no_33_questions {
 
-
+ 
 // ----->> function for QN NO.8             int number[] = { 1 , 3, 8 , 5 , 6 , 7};
 
 
@@ -563,6 +563,42 @@ Example 3:
 Input: arr = [-3,0,1,-3,1,1,1,-3,10,0]
 Output: true
 */
+
+
+/*
+    QN NO. 22 -----> DUPLICATE IN ARRAY : 
+                    YOU ARE GIVEN AN ARRAY 'ARR' OF SIZE 'N' CONTAINING EACH NUMBER BETWEEN 1 TO 'N-1' AT LEAST ONCE.. THERE IS A SINGLE
+                    INTEGER VALUE THAT IS PRESENT IN THE ARRAY TWICE..YOUR TASK IS TO FIND THE DUPLICATE INTEFER VALUE PRESENT IN THE ARRAY 
+                
+    FOR EG...     ARR[]  = {1 , 2 , 3 , 4 , 4 } 
+            ... THE DUPLICATE INTEGER VALUE PRESENT IN THE ARRAY IS 4..HENCE, THE ANSWER IS 4 IN THIS CASE
+*/
+
+           int  ARR[] = {1 , 2 , 3 , 4 , 4 }; 
+           int ans1 = 0;
+
+           // XOR ing all element for cut same occurance (the result is 4 ko kaat dega)
+           for (int i = 0; i < ARR.length; i++) {
+            ans1 = ans1^ARR[i];
+            
+
+            
+           }
+
+           // XOR ing 1 to n-1 for getting same occurance (sab ko kaat dega except 4 )
+           for (int i = 1; i < ARR.length; i++) {
+            ans1 = ans1^i;
+            
+           }
+           System.out.println(ans1);
+
+
+
+
+
+
+
+
 
 
 
