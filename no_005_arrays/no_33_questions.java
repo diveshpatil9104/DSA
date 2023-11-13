@@ -1,4 +1,5 @@
 package no_005_arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -609,18 +610,92 @@ for eg .
 
            OUTPUT ----> { 2 , 2 , 3 }   (BCOZ THEY ARE COMMON ELEMENT OF ARRAY1 AND ARRAY2) BTW IT IS AS SAME AS INTERSECTION 
  */
-
-
+ /* 
+           int ARRAY1[] = {1 , 2 , 2, 2 , 2  ,3 ,4};
+           int ARRAY2[] = {2 , 2 , 3 ,3 };
            
+           for (int i = 0; i < ARRAY1.length; i++) {
+            int answer2 = ARRAY1[i];
+            for (int j = 0; j < ARRAY2.length; j++) {
+                if (answer2 == ARRAY2[j]) {
+                    System.out.print(" " + answer2); 
+                    ARRAY2[j] = -2;    // ( update the match value after printing bcoz avoiding re-mapping [used any min value for updating in this case i use -2 ])
+                    break;
+                    
+                }
+                else{
+                    System.out.println(-1);
+                }
+            }
+            
+           }
+ */
+
+//      BY OPTIMIZE WAY .... HERE IN QN WE GET HELP FROM NOTE NO.2 THEY SAY THAT KI BOTH THE ARRAY ARE SORTED IN NIN-DECRESING ORDER,
+//                            WE ALSO TRY TO AVOID USE TWO FOR LOOP FOR i and j FOR GETTING MIN TIME CMPLEXCITY
     
 
+           int i = 0;
+           int j = 0;
+           int ARRAY3[] = {1 , 2 , 2  ,3 , 5 , 6};
+           int ARRAY4[] = {2 , 3 , 3 , 4 , 5 };
+
+         
+
+        while (i < ARRAY3.length && j < ARRAY4.length) {
+            if (ARRAY3[i]==ARRAY4[j]) {
+                    System.out.print(" " + ARRAY3[i]);
+                    i++;
+                    j++;
+            }
+
+                else if (ARRAY3[i]<ARRAY4[j]) {
+                    i++;
+
+                    
+                }else{
+                    j++;
+                 }
+       
+         }   
+
+         System.out.println();  // new line for next qn 
+
+// ABOVE CONCEPT IS CALLED AS 2 POINTERS APPROCH 
+
+
+/* 
+    QN NO.24 -----> you are given an integer array of size 'n' an and integer s .. your task is to return he list of all pairs
+                    of elements such that each sum of element of each pair equals 's' ...  
+Note:
+Each pair should be sorted ie the first value should be less than or equals to the second value.
+Return the list of pairs sorted in non-decreasing order of their first value.
+In case if two pairs have the same first value, the pair with a smaller second value should come first.
+
+*/
+
+
+         int sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
+         int s = 5;
+
+         for (int k = 0; k < sum_array.length; k++) {
+           // System.out.println(sum_array[k]);       // printing 1 , 2 , 3 , 4 , 5 , 6 
+
+            for (int k2 = k+1; k2 < sum_array.length; k2++) {
+                if ( sum_array[k] + sum_array[k2] == s) {
+                    System.out.print("( " + sum_array[k] + " " + sum_array[k2] + " )");
+                    
+                }
+                
+            }
+            
+         }
 
 
 
 
 
-
-    }
-} 
+    } 
+}
 
 
