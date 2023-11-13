@@ -607,7 +607,7 @@ for eg .
            ARRAY1 = { 1 , 2 , 2 , 2 , 3 , 4 }
            ARRAY2 = { 2 , 2 , 3 , 3 }
 
-           OUTPUT ----> { 2 , 2 , 3 }   (BCOZ THEY ARE COMMON ELEMENT OF ARRAY1 AND ARRAY2)
+           OUTPUT ----> { 2 , 2 , 3 }   (BCOZ THEY ARE COMMON ELEMENT OF ARRAY1 AND ARRAY2) BTW IT IS AS SAME AS INTERSECTION 
  */
 
 
