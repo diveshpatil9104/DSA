@@ -678,10 +678,10 @@ In case if two pairs have the same first value, the pair with a smaller second v
 */
 
 
-         int sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
-         int s = 5;
+        int sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
+        int s = 5;
 
-         for (int k = 0; k < sum_array.length; k++) {
+        for (int k = 0; k < sum_array.length; k++) {
            // System.out.println(sum_array[k]);       // printing 1 , 2 , 3 , 4 , 5 , 6 
 
             for (int k2 = k+1; k2 < sum_array.length; k2++) {
@@ -692,7 +692,7 @@ In case if two pairs have the same first value, the pair with a smaller second v
                 
             }
             
-         }
+        }
 
 /* 
     QN NO. 25 -----> You are given an array/list ARR consisting of N integers. Your task is to find all the distinct triplets present in the array which adds up to a given number K.
@@ -706,14 +706,118 @@ Also, the ordering of different triplets can be random i.e if there are more tha
 
     FOR EG : sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
                 s = 12
-    OUTPUT :  ( 3 , 4 , 5 ) (2 , 4  , 6 ) 
+    OUTPUT :  (1 , 5 , 6) ( 3 , 4 , 5 ) (2 , 4  , 6 ) 
 
 
 */
+        System.out.println();
+        int sum_array1[] = { 1 , 2 , 3  , 4 , 5 , 6 };
+        int s1 = 12;
+
+        for (int k = 0; k < sum_array1.length; k++) {
+            for (int k2 = k+1; k2 < sum_array1.length; k2++) {
+                for (int k3 = k2+1; k3 < sum_array1.length; k3++) {
+                    if (sum_array1[k] + sum_array1[k2] + sum_array1[k3] == s1) {
+                        System.out.print("( " + sum_array[k] + " " + sum_array[k2] + " " + sum_array1[k3] +  " )" );
+                        
+                        
+                    }
+                    
+                }
+                
+            }
+            
+        }
+System.out.println();
+
+/*
+      QN NO.26 -----> SORT THE ATTAY OF 01  
+      
+      EG... ARRAY[] = { 0 , 1,  0 , 0 ,1 , 0, 1}
+      OUTPUT ---->    { 0 , 0 , 0 , 0 , 1 , 1 , 1}
+*/
+
+        
+        int SORT_ARRAY[] = { 0 , 1,  0 , 0 ,1 , 0, 1};
+        int i1 = 0;
+        int i2 = SORT_ARRAY.length-1;
+
+        while (i1 <  i2) {
+
+            while (SORT_ARRAY[i1] == 0 && i1<i2) {
+                // System.out.print(SORT_ARRAY[i1]);
+                i1++;
+                
+                
+            }while (SORT_ARRAY[i2] == 1 && i1<i2){
+
+                i2--;
+                
+            }if ( i1<i2){
+                int temp = SORT_ARRAY[i1];
+                SORT_ARRAY[i1] = SORT_ARRAY[i2];
+                SORT_ARRAY[i2] = temp;
+
+                i1++;
+                i2--;
+
+            }
+                
+            }
+
+            for (int l : SORT_ARRAY) {
+                System.out.print(" " + l);
+                
+            }
+            // ABOVE CONCEPT IS CALLED AS 2 POINTERS APPROCH 
+
+
+//   ----------------------  USING INBUILD SORT FUNCTION --------------------------------
+/* 
+        System.out.println();
+        Arrays.sort(SORT_ARRAY);
+
+        for (int l : SORT_ARRAY) {
+                System.out.print(" " + l);
+                
+        }
+*/        
+        
+        
 
 
 
+        System.out.println();
+        int SORT_ARRAY1[] = {2, 0, 1, 0, 2, 0, 1, 0, 1, 2};
+        int k = 0;
+        int k1 = 0;
+        int k2 = SORT_ARRAY1.length - 1;
+
+        while (k1 < k2) {
+
+            if (SORT_ARRAY1[k1] == 0 && k1 < k2) {
+                // System.out.print(SORT_ARRAY[i1]);
+                int temp = SORT_ARRAY1[k];
+                SORT_ARRAY1[k] = SORT_ARRAY1[k1];
+                SORT_ARRAY1[k1] = temp;
+                k++;
+                k1++;
+
+            } else if (SORT_ARRAY1[k1] == 1 && k1 < k2) {
+                k1++;
+
+            } else {
+                int temp = SORT_ARRAY1[k1];
+                SORT_ARRAY1[k1] = SORT_ARRAY1[k2];
+                SORT_ARRAY1[k2] = temp;
+                k2--;
+
+            }
+        }
+
+        for (int l : SORT_ARRAY1) {
+            System.out.print(" " + l);
+        }
+        
+        }
     } 
-}
-
-
