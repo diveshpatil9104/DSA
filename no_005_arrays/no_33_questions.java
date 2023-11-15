@@ -781,10 +781,13 @@ System.out.println();
                 System.out.print(" " + l);
                 
         }
-*/        
         
-        
+   QN NO.27 ----> SORT THE ARAY OF 0 1 2
+            FOR EG. int SORT_ARRAY1[] = {2, 0, 1, 0, 2, 0, 1, 0, 1, 2};
+                    OUTPUT SHOULD BE = 0 0 0 0 1 1 1 2 2
 
+
+*/        
 
 
         System.out.println();
@@ -820,4 +823,5 @@ System.out.println();
         }
         
         }
+   
     } 
