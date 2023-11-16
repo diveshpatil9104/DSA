@@ -745,7 +745,7 @@ System.out.println();
         while (i1 <  i2) {
 
             while (SORT_ARRAY[i1] == 0 && i1<i2) {
-                // System.out.print(SORT_ARRAY[i1]);
+                
                 i1++;
                 
                 
@@ -799,7 +799,7 @@ System.out.println();
         while (k1 < k2) {
 
             if (SORT_ARRAY1[k1] == 0 && k1 < k2) {
-                
+            
                 int temp = SORT_ARRAY1[k];
                 SORT_ARRAY1[k] = SORT_ARRAY1[k1];
                 SORT_ARRAY1[k1] = temp;
