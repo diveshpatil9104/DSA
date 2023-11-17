@@ -682,8 +682,7 @@ In case if two pairs have the same first value, the pair with a smaller second v
         int s = 5;
 
         for (int k = 0; k < sum_array.length; k++) {
-           // System.out.println(sum_array[k]);       // printing 1 , 2 , 3 , 4 , 5 , 6 
-
+           // System.out.println(sum_array[k]);       
             for (int k2 = k+1; k2 < sum_array.length; k2++) {
                 if ( sum_array[k] + sum_array[k2] == s) {
                     System.out.print("( " + sum_array[k] + " " + sum_array[k2] + " )");
