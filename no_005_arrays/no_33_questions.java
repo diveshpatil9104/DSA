@@ -732,7 +732,7 @@ System.out.println();
 /*
       QN NO.26 -----> SORT THE ATTAY OF 0 1  
       
-      EG... ARRAY[] = { 0 , 1,  0 , 0 ,1 , 0, 1}
+      EG... ARRAY[] = { 0 , 1,  0 , 0 , 1 , 0, 1}
       OUTPUT ---->    { 0 , 0 , 0 , 0 , 1 , 1 , 1}
 */
 
