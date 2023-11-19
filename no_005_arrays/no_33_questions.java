@@ -538,7 +538,7 @@ System.out.println();
             int ans = 0;
 
             for (int i = 0; i<num.length; i++){
-                ans= ans^num[i];   // KAAT DEGA JB ANS AAUR num[i] SAME HOGA THIS OPERATION IS PERFORM IN BILEVEL   
+                ans= ans^num[i];   // KAAT DEGA JAB ANS AAUR num[i] SAME HOGA THIS OPERATION IS PERFORM IN BILEVEL   
 
             }
             System.out.println(" \n\nUnique Element = "+ans);
