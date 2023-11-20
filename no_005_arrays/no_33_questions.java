@@ -667,9 +667,9 @@ for eg .
 /* 
     QN NO.24 -----> you are given an integer array of size 'n' an and integer s .. your task is to return he list of all pairs
                     of elements such that each sum of element of each pair equals 's' ...  
-Note:
-Each pair should be sorted ie the first value should be less than or equals to the second value.
-Return the list of pairs sorted in non-decreasing order of their first value.
+    Note:
+        Each pair should be sorted ie the first value should be less than or equals to the second value.
+        Return the list of pairs sorted in non-decreasing order of their first value.
 In case if two pairs have the same first value, the pair with a smaller second value should come first.
 
     FOR EG : sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
