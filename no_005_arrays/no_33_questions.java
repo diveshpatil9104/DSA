@@ -670,7 +670,7 @@ for eg .
     Note:
         Each pair should be sorted ie the first value should be less than or equals to the second value.
         Return the list of pairs sorted in non-decreasing order of their first value.
-In case if two pairs have the same first value, the pair with a smaller second value should come first.
+        In case if two pairs have the same first value, the pair with a smaller second value should come first.
 
     FOR EG : sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
             s = 5
