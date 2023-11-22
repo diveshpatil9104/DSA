@@ -777,7 +777,7 @@ System.out.println();
         Arrays.sort(SORT_ARRAY);
 
         for (int l : SORT_ARRAY) {
-                System.out.print(" " + l);
+            System.out.print(" " + l);
                 
         }
         
