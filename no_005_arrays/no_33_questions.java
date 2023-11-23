@@ -672,7 +672,7 @@ Note:
         Return the list of pairs sorted in non-decreasing order of their first value.
         In case if two pairs have the same first value, the pair with a smaller second value should come first.
 
-    FOR EG : sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
+        FOR EG : sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
             s = 5
     OUTPUT :  (1 4) (2 3 )
 */
