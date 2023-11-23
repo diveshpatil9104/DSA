@@ -673,7 +673,7 @@ Note:
         In case if two pairs have the same first value, the pair with a smaller second value should come first.
 
         FOR EG : sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
-            s = 5
+        s = 5
     OUTPUT :  (1 4) (2 3 )
 */
 
