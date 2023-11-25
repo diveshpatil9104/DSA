@@ -674,7 +674,7 @@ Note:
 
         FOR EG : sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
         s = 5
-    OUTPUT :  (1 4) (2 3 )
+       OUTPUT :  (1 4) (2 3 )
 */
 
 
