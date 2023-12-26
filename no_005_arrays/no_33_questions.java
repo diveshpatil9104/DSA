@@ -680,7 +680,7 @@ for eg .
         int sum_array[] = { 1 , 2 , 3  , 4 , 5 , 6 };
         int s = 5;
 
-        for (int k = 0; k < sum_array.length; k++) {
+           for (int k = 0; k < sum_array.length; k++) {
                   
             for (int k2 = k+1; k2 < sum_array.length; k2++) {
                 if ( sum_array[k] + sum_array[k2] == s) {
