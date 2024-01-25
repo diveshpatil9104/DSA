@@ -520,7 +520,7 @@ System.out.println();
         }
                  
 /*
-                            QN NO. 20 ----> Problem Statement
+ QN NO. 20 ----> Problem Statement
 
     You have been given an integer array/list(ARR) of size N. Where N is equal to [2M + 1) [means odd number ].
     Now, in the given array/list, "M' numbers are present twice and one number is present only once.
