@@ -519,7 +519,7 @@ System.out.println();
         
         }
                  
-/*
+/*        
  QN NO. 20 ----> Problem Statement
 
     You have been given an integer array/list(ARR) of size N. Where N is equal to [2M + 1) [means odd number ].
@@ -545,7 +545,7 @@ System.out.println();
 
 
 /* 
-    QN NO. 21 -----> Given an array of integers arr, return true if the number of occurrences of each value in the 
+        QN NO. 21 -----> Given an array of integers arr, return true if the number of occurrences of each value in the 
                         array is unique or false otherwise.
 
 Example 1:
