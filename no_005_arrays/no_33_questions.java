@@ -496,7 +496,7 @@ public class no_33_questions {
 System.out.println();
  
 /*
- QN NO. 19 ---->> SWAPPING ARRAY ALTERNATLY
+         QN NO. 19 ---->> SWAPPING ARRAY ALTERNATLY
     1)  arr[] = {1 , 2 , 7 , 8 , 5 }
         RESULT SHOULD BE =  2 , 1 , , 8 , 7, 5
 
