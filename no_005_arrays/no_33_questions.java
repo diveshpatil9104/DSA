@@ -481,7 +481,7 @@ public class no_33_questions {
                 arr[start] = arr[end];
                 arr[end] = temp;
                 
-// printing the    array 
+// printing the  array 
   
                 // Move the pointers towards the center of the array
                 start++;
