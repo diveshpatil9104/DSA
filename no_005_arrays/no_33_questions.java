@@ -807,7 +807,7 @@ System.out.println();
             } else if (SORT_ARRAY1[k1] == 1 && k1 < k2) {
                 k1++;
 
-            }  else {
+            } else {
                 int temp = SORT_ARRAY1[k1];
                 SORT_ARRAY1[k1] = SORT_ARRAY1[k2];
                 SORT_ARRAY1[k2] = temp;
