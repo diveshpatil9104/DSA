@@ -770,7 +770,7 @@ System.out.println();
             // ABOVE CONCEPT IS CALLED AS 2 POINTERS APPROCH 
 
 
-//   - FOLLOWING QUESTIONS b USING INBUILD SORT FUNCTION --------------------------------
+//   - FOLLOWING QUESTIONS b   USING INBUILD SORT FUNCTION --------------------------------
 /* 
         System.out.println();
         Arrays.sort(SORT_ARRAY);
