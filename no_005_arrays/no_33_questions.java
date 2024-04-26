@@ -153,7 +153,7 @@ public class no_33_questions {
 
         System.out.println(" Printing first matrix");
 
-        for (int i = 0; i < matA.length; i++) {
+        for (int i = 0; i < matA.length; i++) {  
             for(int j = 0; j<3; j++){
                 System.out.print(" " + matA [i][j]);
             }
