@@ -41,7 +41,7 @@ public class no_33_questions {
             }
 
 
-//  ---->> function for QN NO.21    (optimized code) :
+//  ---->> function for QN NO.21        (optimized code) :
 
     public static boolean sorted(int matrix3[][], int key2) {
 
