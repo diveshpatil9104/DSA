@@ -124,7 +124,6 @@ public class no_33_questions {
         int sum=0;
         for(int marks: phymarks){ q                           // this santax means give me a phymarks in marks one by one ...
             sum = sum+ marks;
-
         }System.out.println( "avg. marks of students in the class: " +sum/phymarks.length);
 */ 
 
