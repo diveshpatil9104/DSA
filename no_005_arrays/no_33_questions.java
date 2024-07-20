@@ -122,7 +122,7 @@ public class no_33_questions {
 
 /*      int[] phymarks = {32,45,65,86,75,75,99,100};
         int sum=0;
-        for(int marks: phymarks){ q             // this santax means give me a phymarks in marks one by one ...
+        for(int marks: phymarks){ q       // this santax means give me a phymarks in marks one by one ...
             sum = sum+ marks;    
         }System.out.println( "avg. marks of students in the class: " +sum/phymarks.length);
 */ 
@@ -134,7 +134,7 @@ public class no_33_questions {
         matA[0][0]= 1; 
         matA[0][1]= 2; 
         matA[0][2]= 3; 
-        matA[1][0]= 1; 
+        matA[1][0]= 1;    
         matA[1][1]= 2; 
         matA[1][2]= 3; 
 
