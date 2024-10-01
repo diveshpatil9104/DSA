@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class no_33_questions {
 
  
-// ----->> function for QN NO.8             int number[] = { 1 , 3, 8 , 5 , 6 , 7};
+// ----->> function for QN NO.8      int number[] = { 1 , 3, 8 , 5 , 6 , 7};
 
 
     public static boolean search( int numbers[]){
