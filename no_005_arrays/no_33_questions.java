@@ -569,14 +569,14 @@ Output: true
                     INTEGER VALUE THAT IS PRESENT IN THE ARRAY TWICE..YOUR TASK IS TO FIND THE DUPLICATE INTEFER VALUE PRESENT IN THE ARRAY 
                 
     FOR EG...     ARR[]  = {1 , 2 , 3 , 4 , 4 } 
-            ... THE DUPLICATE INTEGER VALUE PRESENT        IN THE ARRAY IS 4..HENCE, THE ANSWER IS 4 IN THIS CASE
+            ... THE DUPLICATE INTEGER VALUE PRESENT           IN THE ARRAY IS 4..HENCE, THE ANSWER IS 4 IN THIS CASE
 */
 
            int  ARR[] = {1 , 2 , 3 , 4 , 4 }; 
            int ans1 = 0;
 
            // XOR ing all element for cut same occurance (the result is 4 ko kaat dega)
-           for (int i = 0; i < ARR.length; i++) {
+           for (int i = 0; i < ARR.length; i++) {  
             ans1 = ans1^ARR[i];
             
    
