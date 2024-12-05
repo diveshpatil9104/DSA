@@ -583,7 +583,7 @@ Output: true
             
            }
 
-           // XOR ing 1 to n-1 for getting same occurance                (sab ko kaat dega except 4 )
+           // XOR ing 1 to n-1 for getting same occurance                   (sab ko kaat dega except 4 )
            for (int i = 1; i < ARR.length; i++) {
             ans1 = ans1^i;
             
